@@ -1,9 +1,9 @@
 import Content from "./components/content/page";
 
-export default function Home() {
+export default function Home({Posts}) {
   return (
     <main>
-      <Content/>``
+      <Content />
     </main>
   )
 }
